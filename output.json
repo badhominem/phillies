@@ -1,0 +1,533 @@
+[
+  {
+    "email_id": "18dd39e9d02df186",
+    "contents": {
+      "email_date": "2024-02-23 02:39:50",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18dad8c784e6f14c",
+    "contents": {
+      "email_date": "2024-02-15 17:14:27",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b6bae22e0dbda4",
+    "contents": {
+      "email_date": "2023-10-26 13:10:40",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b618c79c90af97",
+    "contents": {
+      "email_date": "2023-10-24 13:57:38",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b5d4b599a574c8",
+    "contents": {
+      "email_date": "2023-10-23 18:08:03",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18b534574a57eb32",
+    "contents": {
+      "email_date": "2023-10-21 19:25:27",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b4e966eb290380",
+    "contents": {
+      "email_date": "2023-10-20 21:35:50",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b4e1459376e9a5",
+    "contents": {
+      "email_date": "2023-10-20 19:13:42",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b47c3598da34b3",
+    "contents": {
+      "email_date": "2023-10-19 13:47:26",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18b3e088022d4f94",
+    "contents": {
+      "email_date": "2023-10-17 16:26:31",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18b2920a01f73839",
+    "contents": {
+      "email_date": "2023-10-13 15:01:06",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18b23970b84188c1",
+    "contents": {
+      "email_date": "2023-10-12 13:12:41",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b1e6ed9cf8d9ff",
+    "contents": {
+      "email_date": "2023-10-11 13:10:46",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18b143fb4aae1a1c",
+    "contents": {
+      "email_date": "2023-10-09 13:43:05",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18b06daf84c622ca",
+    "contents": {
+      "email_date": "2023-10-06 23:18:00",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18afcadcfd25af34",
+    "contents": {
+      "email_date": "2023-10-04 23:52:29",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18af181a9ccc211e",
+    "contents": {
+      "email_date": "2023-10-02 19:48:25",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18ae787dce63cb09",
+    "contents": {
+      "email_date": "2023-09-30 21:19:00",
+      "opponent": "Pittsburgh Pirates",
+      "winner": "Pirates",
+      "sentiment": "-1"
+    }
+  },
+  {
+    "email_id": "18addc8dfd249075",
+    "contents": {
+      "email_date": "2023-09-28 23:53:14",
+      "opponent": "Pirates",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ad66008f0ae0a6",
+    "contents": {
+      "email_date": "2023-09-27 13:21:56",
+      "opponent": "Pittsburgh Pirates",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ace5ee4c4f016c",
+    "contents": {
+      "email_date": "2023-09-26 00:03:41",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ac79b9f49018c1",
+    "contents": {
+      "email_date": "2023-09-24 16:32:43",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ac79048516f011",
+    "contents": {
+      "email_date": "2023-09-24 16:20:22",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18ac5c895bee2fdc",
+    "contents": {
+      "email_date": "2023-09-24 08:02:37",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18ac30eaa997e20c",
+    "contents": {
+      "email_date": "2023-09-23 19:18:04",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18abdb25778782ca",
+    "contents": {
+      "email_date": "2023-09-22 18:21:13",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ab90ff89fbd897",
+    "contents": {
+      "email_date": "2023-09-21 20:45:31",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ab2806e519e39e",
+    "contents": {
+      "email_date": "2023-09-20 14:11:00",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18aaf8db32b7f525",
+    "contents": {
+      "email_date": "2023-09-20 00:26:38",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18aaa66adfe33c8f",
+    "contents": {
+      "email_date": "2023-09-19 00:25:55",
+      "opponent": "Cardinals",
+      "winner": "Cardinals",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18aa3baa9a35c7b7",
+    "contents": {
+      "email_date": "2023-09-17 17:20:18",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a9f755aed9bb0d",
+    "contents": {
+      "email_date": "2023-09-16 21:26:07",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a960c3c61d760d",
+    "contents": {
+      "email_date": "2023-09-15 01:34:44",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a908cd6afca6c0",
+    "contents": {
+      "email_date": "2023-09-13 23:57:28",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a8b7e39511c66d",
+    "contents": {
+      "email_date": "2023-09-13 00:23:25",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a841e7e6e724b9",
+    "contents": {
+      "email_date": "2023-09-11 14:01:29",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18a7f50dd5943158",
+    "contents": {
+      "email_date": "2023-09-10 15:38:25",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a7a500aae239ab",
+    "contents": {
+      "email_date": "2023-09-09 16:19:25",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a71d4d278fc997",
+    "contents": {
+      "email_date": "2023-09-08 00:47:51",
+      "opponent": "Padres",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a6a521b293e582",
+    "contents": {
+      "email_date": "2023-09-06 13:47:45",
+      "opponent": "Padres",
+      "winner": "Padres",
+      "sentiment": "-4"
+    }
+  },
+  {
+    "email_id": "18a6779af725f71b",
+    "contents": {
+      "email_date": "2023-09-06 00:32:02",
+      "opponent": "Padres",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a61d930c35b20a",
+    "contents": {
+      "email_date": "2023-09-04 22:18:43",
+      "opponent": "Brewers",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a5af5f82a4d924",
+    "contents": {
+      "email_date": "2023-09-03 14:12:50",
+      "opponent": "Brewers",
+      "winner": "Brewers",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a578cdbf79bf40",
+    "contents": {
+      "email_date": "2023-09-02 22:19:08",
+      "opponent": "Brewers",
+      "winner": "Brewers",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a4c9a3d3d3e793",
+    "contents": {
+      "email_date": "2023-08-31 19:17:55",
+      "opponent": "Angels",
+      "winner": "Angels",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a47df8825ac9fb",
+    "contents": {
+      "email_date": "2023-08-30 21:15:30",
+      "opponent": "Angels",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a4126f063a1cac",
+    "contents": {
+      "email_date": "2023-08-29 13:56:11",
+      "opponent": "Angels",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a3d81c8c21b4d8",
+    "contents": {
+      "email_date": "2023-08-28 20:56:55",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a380bd2d9c4821",
+    "contents": {
+      "email_date": "2023-08-27 19:29:55",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a325ec6789ac10",
+    "contents": {
+      "email_date": "2023-08-26 17:02:51",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a28a9dd78a716c",
+    "contents": {
+      "email_date": "2023-08-24 19:48:39",
+      "opponent": "Giants",
+      "winner": "Giants",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a233001dffcd62",
+    "contents": {
+      "email_date": "2023-08-23 18:17:27",
+      "opponent": "Giants",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a1f0aae88919ca",
+    "contents": {
+      "email_date": "2023-08-22 22:58:13",
+      "opponent": "Giants",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a1859cc3fc1f04",
+    "contents": {
+      "email_date": "2023-08-21 15:47:15",
+      "opponent": "Nationals",
+      "winner": "Nationals",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a13abe42ea94e5",
+    "contents": {
+      "email_date": "2023-08-20 17:58:51",
+      "opponent": "Nationals",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a0f10adc4426df",
+    "contents": {
+      "email_date": "2023-08-19 20:30:48",
+      "opponent": "Nationals",
+      "winner": "Nationals",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18a035c838414a7c",
+    "contents": {
+      "email_date": "2023-08-17 13:58:14",
+      "opponent": "Blue Jays",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "189ff09710c4dede",
+    "contents": {
+      "email_date": "2023-08-16 17:49:01",
+      "opponent": "Blue Jays",
+      "winner": "Blue Jays",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "189f7168452d9d2d",
+    "contents": {
+      "email_date": "2023-08-15 04:46:20",
+      "opponent": "Twins",
+      "winner": "Twins",
+      "sentiment": "-3"
+    }
+  }
+]

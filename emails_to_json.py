@@ -25,8 +25,8 @@ def main():
 	# The file token.json stores the user's access and refresh tokens, and is
 	# created automatically when the authorization flow completes for the first
 	# time.
-	if os.path.exists("token_extract.json"):
-		creds = Credentials.from_authorized_user_file("token_extract.json", SCOPES)
+	if os.path.exists("token.json"):
+		creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 		
 	# If there are no (valid) credentials available, let the user log in.
 	if not creds or not creds.valid:
@@ -35,12 +35,12 @@ def main():
 			
 		else:
 			flow = InstalledAppFlow.from_client_secrets_file(
-					"credentials2.json", SCOPES
+					"credentials.json", SCOPES
 			)
 			creds = flow.run_local_server(port=0)
 			
 		# Save the credentials for the next run
-		with open("token_extract.json", "w") as token:
+		with open("token.json", "w") as token:
 			token.write(creds.to_json())
 
 	try:
@@ -53,9 +53,10 @@ def main():
 		else:
 			extract = {}
 			file_date = datetime.now()
+
 			for message in messages:
-				line_data = []
 				
+				body = ""
 				# GET request for one message:
 				msg = service.users().messages().get(userId='me', id=message['id'], format='raw').execute()
 
@@ -81,9 +82,12 @@ def main():
 							for blockquote in blockquotes:
 								blockquote.extract()
 							
-							body = soup.get_text(separator="\n")
+							body_part = soup.get_text(separator="\n")
 							
-							line_data.append(body)
+							if body == "":
+								body = body_part
+							else:
+								body = "\n" + body_part
 											
 				elif messageMainType == 'text':
 					
@@ -94,17 +98,14 @@ def main():
 						blockquote.extract()
 					
 					body = soup.get_text(separator="\n")
-					
-					line_data.append(body)
-				
+
 				extract[message['id']] = {						
 						"date_created": str(internalDate),
 						"date_imported": str(file_date),
-						"game": "",
-						"body": line_data
+						"body": body
 					}
 			try:
-				with open(f"emails/emaildata.json", 'w') as f:
+				with open("emails/emaildata.json", 'w') as f:
 					json.dump(extract, f, indent=2)
 			
 			except Exception as e:
