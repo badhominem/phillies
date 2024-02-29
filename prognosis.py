@@ -93,14 +93,20 @@ def main():
 	smoothed_sentiment = df['sentiment'].rolling(window=4, min_periods=1).mean()
 
 	# Plot
-	plt.figure(figsize=(12, 6))
-	plt.plot(df['email_date'], smoothed_sentiment, marker='o', linestyle='-')
-	plt.xlabel('Date')
-	plt.ylabel('Positivity')
-	plt.title('sentiment analysis of post-game emails')
-	plt.suptitle('"Re: Phillies", how does it feel to be Pete?')
-	
-	
+	plt.figure(figsize=(12, 8))
+	plt.ylim([-5, 5])
+	plt.axhline(y=0, color='black', linestyle='-', linewidth='2')
+	plt.plot(df['email_date'], smoothed_sentiment, marker='o', linestyle='-', color='black', linewidth='2')
+	plt.xlabel('DATE', fontsize = 14)
+	plt.xticks(fontsize=12)
+	plt.ylabel('MOOD', fontsize = 14)
+	plt.yticks(fontsize=12)
+	plt.tick_params(axis='x', width=2)
+	plt.tick_params(axis='y', width=2)
+	for spine in plt.gca().spines.values():
+		spine.set_linewidth(2)
+	plt.title('Post-game mood barometer', fontsize = 16)
+	plt.suptitle('"Re: Phillies" - the emotional toll of baseball', fontsize = 18)
 	
 	plt.savefig("pete\'s_mood.png")
 
