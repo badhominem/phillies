@@ -16,11 +16,14 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
-
-def main():
-	"""Shows basic usage of the Gmail API.
-	Lists the user's Gmail labels.
+def gmail_credentials():
+	""" Get user gmail credentials from Oauth flow.
+	currently requires a new credential every 7 days on google console.
+	Once the project is no longer in testing environment, the credential
+	does not have to be renewed every 7 days.
+	philliesdump@gmail.com receives all phillies emails.
 	"""
+
 	creds = None
 	# The file token.json stores the user's access and refresh tokens, and is
 	# created automatically when the authorization flow completes for the first
@@ -42,6 +45,10 @@ def main():
 		# Save the credentials for the next run
 		with open("token.json", "w") as token:
 			token.write(creds.to_json())
+	return creds
+
+def main():
+	creds = gmail_credentials()
 
 	try:
 		# Call the Gmail API
@@ -105,11 +112,17 @@ def main():
 						"body": body
 					}
 			try:
-				with open("emails/emaildata.json", 'w') as f:
+				# persist in date hierarchy
+				target_dir = f"emails/raw/{file_date.year}/{file_date.month}/{file_date.day}"
+				os.makedirs(target_dir, exist_ok=True)
+				
+				target_fpath = f"{target_dir}/{file_date.date()}_emaildata.json"
+
+				with open(target_fpath, 'a') as f:
 					json.dump(extract, f, indent=2)
 			
 			except Exception as e:
-				print(e)
+				print("json.dump location", e)
 
 
 	except:

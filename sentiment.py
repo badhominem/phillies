@@ -7,7 +7,7 @@ import pandas as pd
 
 def load_emails():
 	email_body = None
-	
+
 	try:
 		with open("emails/emaildata.json", 'r') as f:
 			email_body = json.load(f)
@@ -15,6 +15,19 @@ def load_emails():
 	except Exception as e:
 		print(e)
 	
+	## added 2024-04-01. Compare staged data to gold data.
+	## add to gold data only non-existing emails
+	# use set method difference()
+
+	try:
+		with open("output.json", "r") as f:
+			existing_id_set = set(json.load(f)[id])
+	
+	except Exception as e:
+		print("load_emails(), opening output.json", "\n", e)
+
+	to_analyse = set(email_body[id]).difference(existing_id_set)
+
 	return email_body
 
 def load_client():
