@@ -1,9 +1,8 @@
 import os
 
-# file hierarchy structure
-# raw/year/month/day/yearmonthday_emaildata.json
-
-operating_path = '/home/badhominem/codefiles/experiments/phillies/emails/raw'
+def find_latest_data(path, raw):
+    # file hierarchy structure
+    # raw/year/month/day/yearmonthday_emaildata.json
 
     # cycle through directories
     # find maximum folder with maximum values
@@ -11,9 +10,14 @@ operating_path = '/home/badhominem/codefiles/experiments/phillies/emails/raw'
     # look for maximum value folder
     # repeat until there is no more folder
     # show files inside last folder
-
-def find_latest_data(path):
     # show contents of path
+    if raw == True:
+        path = path + 'raw'
+    elif raw == False:
+        path = path + 'master'
+    else:
+        path = path
+    
     folders = os.listdir(path)
 
     max_val = 0
@@ -40,13 +44,16 @@ def find_latest_data(path):
     
     if path_to_max:
         # if path_to_max is not None, current level is a folder
-        return find_latest_data(path_to_max)
-    elif folders[0]:
+        return find_latest_data(path_to_max, "no")
+    elif folders:
         # if path_to_max is none, current level is not folder
         # we want to inspect for files
         return os.path.join(path, folders[0])
     else: 
         return None
 
-path_to_latest_data = find_latest_data(operating_path)
-print(path_to_latest_data)
+
+if __name__ == "__main__":
+    operating_path = '/home/badhominem/codefiles/experiments/phillies/emails/'
+    x = find_latest_data(operating_path, False)
+    print(x)

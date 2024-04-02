@@ -4,31 +4,9 @@ from openai import OpenAI
 import os
 import json
 import pandas as pd
-
-def load_emails():
-	email_body = None
-
-	try:
-		with open("emails/emaildata.json", 'r') as f:
-			email_body = json.load(f)
-	
-	except Exception as e:
-		print(e)
-	
-	## added 2024-04-01. Compare staged data to gold data.
-	## add to gold data only non-existing emails
-	# use set method difference()
-
-	try:
-		with open("output.json", "r") as f:
-			existing_id_set = set(json.load(f)[id])
-	
-	except Exception as e:
-		print("load_emails(), opening output.json", "\n", e)
-
-	to_analyse = set(email_body[id]).difference(existing_id_set)
-
-	return email_body
+import load_emails
+from datetime import datetime
+import locate_newest_emaildata as lne
 
 def load_client():
 	client = None
@@ -100,7 +78,6 @@ def game_winner(client,text,opponent):
 	)
 	return completion.choices[0].message.content
 
-
 def phillies_email(client, text, date_created):
 	winner = 'missing'
 	sentiment = '-99'
@@ -120,26 +97,45 @@ def phillies_email(client, text, date_created):
 
 def main():
 	
-	results = []
 	client = load_client()
-	email_dict = load_emails()
 	
-	for id in email_dict:
-		text = email_dict[id]['body']
-		date = email_dict[id]['date_created']
+	new_emails= load_emails.main()
+	
+	fp_gold_emails = lne.find_latest_data('/home/badhominem/codefiles/experiments/phillies/emails/', False)
+	with open(fp_gold_emails, "r") as f:
+		gold_emails = json.load(f)
+
+	# # needs to update to reflect master data structure
+	# # open latest master data
+	# with open("output.json", "r") as f:
+	# 	gold_emails = json.load(f)
+
+
+	for id in new_emails:
+		text = new_emails[id]['body']
+		date = new_emails[id]['date_created']
 		
 		response = phillies_email(client, text, date)
 		
+
 		result =	{
 					"email_id" : id,
 					"contents": response
 					}
 		
-		results.append(result)
+		gold_emails.append(result)
 
-	with open("output.json", "a") as f:
-		json.dump(results, f, indent = 2)
+	# need to change file structure of master folder
+	# year/month/day/files.json
 		
+	file_date = datetime.now().date()
+	target_dir = f"emails/master/{file_date.year}/{file_date.month}/{file_date.day}"
+	os.makedirs(target_dir, exist_ok=True)
+				
+	target_fpath = f"{target_dir}/{file_date}_emaildata.json"
+
+	with open(target_fpath, "w") as wf:
+		json.dump(gold_emails, wf, indent=2)
 
 if __name__ == "__main__":
   main()
