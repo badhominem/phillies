@@ -1,0 +1,593 @@
+[
+  {
+    "email_id": "18dd39e9d02df186",
+    "contents": {
+      "email_date": "2024-02-23 02:39:50",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18dad8c784e6f14c",
+    "contents": {
+      "email_date": "2024-02-15 17:14:27",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b6bae22e0dbda4",
+    "contents": {
+      "email_date": "2023-10-26 13:10:40",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b618c79c90af97",
+    "contents": {
+      "email_date": "2023-10-24 13:57:38",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b5d4b599a574c8",
+    "contents": {
+      "email_date": "2023-10-23 18:08:03",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18b534574a57eb32",
+    "contents": {
+      "email_date": "2023-10-21 19:25:27",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b4e966eb290380",
+    "contents": {
+      "email_date": "2023-10-20 21:35:50",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18b4e1459376e9a5",
+    "contents": {
+      "email_date": "2023-10-20 19:13:42",
+      "opponent": "Diamondbacks",
+      "winner": "Diamondbacks",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b47c3598da34b3",
+    "contents": {
+      "email_date": "2023-10-19 13:47:26",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18b3e088022d4f94",
+    "contents": {
+      "email_date": "2023-10-17 16:26:31",
+      "opponent": "Diamondbacks",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18b2920a01f73839",
+    "contents": {
+      "email_date": "2023-10-13 15:01:06",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18b23970b84188c1",
+    "contents": {
+      "email_date": "2023-10-12 13:12:41",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18b1e6ed9cf8d9ff",
+    "contents": {
+      "email_date": "2023-10-11 13:10:46",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18b143fb4aae1a1c",
+    "contents": {
+      "email_date": "2023-10-09 13:43:05",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18b06daf84c622ca",
+    "contents": {
+      "email_date": "2023-10-06 23:18:00",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18afcadcfd25af34",
+    "contents": {
+      "email_date": "2023-10-04 23:52:29",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18af181a9ccc211e",
+    "contents": {
+      "email_date": "2023-10-02 19:48:25",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18ae787dce63cb09",
+    "contents": {
+      "email_date": "2023-09-30 21:19:00",
+      "opponent": "Pittsburgh Pirates",
+      "winner": "Pirates",
+      "sentiment": "-1"
+    }
+  },
+  {
+    "email_id": "18addc8dfd249075",
+    "contents": {
+      "email_date": "2023-09-28 23:53:14",
+      "opponent": "Pirates",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ad66008f0ae0a6",
+    "contents": {
+      "email_date": "2023-09-27 13:21:56",
+      "opponent": "Pittsburgh Pirates",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ace5ee4c4f016c",
+    "contents": {
+      "email_date": "2023-09-26 00:03:41",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ac79b9f49018c1",
+    "contents": {
+      "email_date": "2023-09-24 16:32:43",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ac79048516f011",
+    "contents": {
+      "email_date": "2023-09-24 16:20:22",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18ac5c895bee2fdc",
+    "contents": {
+      "email_date": "2023-09-24 08:02:37",
+      "opponent": "missing",
+      "winner": "missing",
+      "sentiment": "-99"
+    }
+  },
+  {
+    "email_id": "18ac30eaa997e20c",
+    "contents": {
+      "email_date": "2023-09-23 19:18:04",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18abdb25778782ca",
+    "contents": {
+      "email_date": "2023-09-22 18:21:13",
+      "opponent": "Mets",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ab90ff89fbd897",
+    "contents": {
+      "email_date": "2023-09-21 20:45:31",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18ab2806e519e39e",
+    "contents": {
+      "email_date": "2023-09-20 14:11:00",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18aaf8db32b7f525",
+    "contents": {
+      "email_date": "2023-09-20 00:26:38",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18aaa66adfe33c8f",
+    "contents": {
+      "email_date": "2023-09-19 00:25:55",
+      "opponent": "Cardinals",
+      "winner": "Cardinals",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18aa3baa9a35c7b7",
+    "contents": {
+      "email_date": "2023-09-17 17:20:18",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a9f755aed9bb0d",
+    "contents": {
+      "email_date": "2023-09-16 21:26:07",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a960c3c61d760d",
+    "contents": {
+      "email_date": "2023-09-15 01:34:44",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a908cd6afca6c0",
+    "contents": {
+      "email_date": "2023-09-13 23:57:28",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a8b7e39511c66d",
+    "contents": {
+      "email_date": "2023-09-13 00:23:25",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a841e7e6e724b9",
+    "contents": {
+      "email_date": "2023-09-11 14:01:29",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18a7f50dd5943158",
+    "contents": {
+      "email_date": "2023-09-10 15:38:25",
+      "opponent": "Marlins",
+      "winner": "Phillies",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a7a500aae239ab",
+    "contents": {
+      "email_date": "2023-09-09 16:19:25",
+      "opponent": "Marlins",
+      "winner": "Marlins",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a71d4d278fc997",
+    "contents": {
+      "email_date": "2023-09-08 00:47:51",
+      "opponent": "Padres",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a6a521b293e582",
+    "contents": {
+      "email_date": "2023-09-06 13:47:45",
+      "opponent": "Padres",
+      "winner": "Padres",
+      "sentiment": "-4"
+    }
+  },
+  {
+    "email_id": "18a6779af725f71b",
+    "contents": {
+      "email_date": "2023-09-06 00:32:02",
+      "opponent": "Padres",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a61d930c35b20a",
+    "contents": {
+      "email_date": "2023-09-04 22:18:43",
+      "opponent": "Brewers",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a5af5f82a4d924",
+    "contents": {
+      "email_date": "2023-09-03 14:12:50",
+      "opponent": "Brewers",
+      "winner": "Brewers",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a578cdbf79bf40",
+    "contents": {
+      "email_date": "2023-09-02 22:19:08",
+      "opponent": "Brewers",
+      "winner": "Brewers",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a4c9a3d3d3e793",
+    "contents": {
+      "email_date": "2023-08-31 19:17:55",
+      "opponent": "Angels",
+      "winner": "Angels",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a47df8825ac9fb",
+    "contents": {
+      "email_date": "2023-08-30 21:15:30",
+      "opponent": "Angels",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a4126f063a1cac",
+    "contents": {
+      "email_date": "2023-08-29 13:56:11",
+      "opponent": "Angels",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a3d81c8c21b4d8",
+    "contents": {
+      "email_date": "2023-08-28 20:56:55",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a380bd2d9c4821",
+    "contents": {
+      "email_date": "2023-08-27 19:29:55",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a325ec6789ac10",
+    "contents": {
+      "email_date": "2023-08-26 17:02:51",
+      "opponent": "Cardinals",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "18a28a9dd78a716c",
+    "contents": {
+      "email_date": "2023-08-24 19:48:39",
+      "opponent": "Giants",
+      "winner": "Giants",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a233001dffcd62",
+    "contents": {
+      "email_date": "2023-08-23 18:17:27",
+      "opponent": "Giants",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a1f0aae88919ca",
+    "contents": {
+      "email_date": "2023-08-22 22:58:13",
+      "opponent": "Giants",
+      "winner": "Phillies",
+      "sentiment": "4"
+    }
+  },
+  {
+    "email_id": "18a1859cc3fc1f04",
+    "contents": {
+      "email_date": "2023-08-21 15:47:15",
+      "opponent": "Nationals",
+      "winner": "Nationals",
+      "sentiment": "-2"
+    }
+  },
+  {
+    "email_id": "18a13abe42ea94e5",
+    "contents": {
+      "email_date": "2023-08-20 17:58:51",
+      "opponent": "Nationals",
+      "winner": "Phillies",
+      "sentiment": "2"
+    }
+  },
+  {
+    "email_id": "18a0f10adc4426df",
+    "contents": {
+      "email_date": "2023-08-19 20:30:48",
+      "opponent": "Nationals",
+      "winner": "Nationals",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18a035c838414a7c",
+    "contents": {
+      "email_date": "2023-08-17 13:58:14",
+      "opponent": "Blue Jays",
+      "winner": "Phillies",
+      "sentiment": "3"
+    }
+  },
+  {
+    "email_id": "189ff09710c4dede",
+    "contents": {
+      "email_date": "2023-08-16 17:49:01",
+      "opponent": "Blue Jays",
+      "winner": "Blue Jays",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "189f7168452d9d2d",
+    "contents": {
+      "email_date": "2023-08-15 04:46:20",
+      "opponent": "Twins",
+      "winner": "Twins",
+      "sentiment": "-3"
+    }
+  },
+  {
+    "email_id": "18e9987a22271c34",
+    "contents": {
+      "email_date": "2024-04-01 13:59:35",
+      "opponent": "Braves",
+      "winner": "Phillies",
+      "sentiment": "4",
+      "body": "3/31 game vs Atlanta Braves\nThe Phillies fate seemed to be destined for a season starting sweep against the Braves\u2026.but luckily a 5-4 win yesterday got us our first win of the season instead\u2026Ranger Suarez started his first game of the year\u2026pitched 5 innings allowing 3 earned runs\u2026classic early season stat line for Ranger\u2026Strahm and Hoffman both pitched scoreless innings, Dominguez ran into trouble in the 8th allowing a run, Soto got him out of it\u2026Alvarado closed out the game in the 9th\u2026the Phillies scoring started with a lead off Schwarber home run, his first of the season\u2026Schwarber also had a fielders choice RBI in the 5th\u2026in the 7th Trea Turner hit an RBI single and Alex Bohm hit in a pair of runs on a single\u2026first win im the books\u2026\nRecord: 1-2\nStandings: Tied for 2nd in NL East\nNext up: Monday 4/1 @ 6:40 vs CIN Ress\nOn Sun, Mar 31, 2024 at 11:05 AM Peter Donato <\npeter.g.donato@gmail.com\n> wrote:\n\n"
+    }
+  },
+  {
+    "email_id": "18e950bac2969fd5",
+    "contents": {
+      "email_date": "2024-03-31 17:05:42",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-3",
+      "body": "3/30 game vs Atlanta Braves\nThe people spoke and I\u2019m keeping this a single chain\u2026the Phillies dropped the second game of the season yesterday by a score of 12-4\u2026Aaron Nola got the start and had a pretty awful game\u2026pitching 4.1 innings and allowing 7 earned runs in the first three\u2026the Phillies scored 3 runs in the first inning thanks to terrible pitching from Atlanta\u2019s Max Fried and also thanks to a two run single from Stott\u2026in the fourth JT Realmuto hit a bomb to make it a 7-4 game\u2026Luis Ortiz relieved Nola in the fifth\u2026Ortiz continued to pitch in the 6th but allowed 3 earned runs and got injured (not sure the details of the injury)\u2026SerAnthony Dominguez took over in the sixth and allowed another 2 runs\u2026Marte and Soto pitched scoreless 7th and 8th innings\u2026Brogdon pitched the 9th and allowed a final home run\u2026final score of 12-4\u2026disappointing game of pitching from the Fightins\u2026.\nRecord: 0-2\nStandings: Tied for 3rd in NL East\nNext up: Sunday 3/31 @ 1:35 vs ATL Braves\nOn Sat, Mar 30, 2024 at 8:49 AM Peter Donato <\npeter.g.donato@gmail.com\n> wrote:\n\n\n\n"
+    }
+  },
+  {
+    "email_id": "18e8f68900113ea8",
+    "contents": {
+      "email_date": "2024-03-30 13:49:25",
+      "opponent": "Braves",
+      "winner": "Braves",
+      "sentiment": "-2",
+      "body": "3/29 game vs Atlanta Braves\nWelcome back folks, Phillies opening day was finally upon us yesterday\u2026excited to be back\u2026excited to be hurt again\u2026.I\u2019m sure the season will be have it\u2019s typical moments\u2026Bryce coming up huge, Wheeler being an ace, Ben Davis being insufferable in the broadcasting booth, etc\u2026.but I\u2019m sure we\u2019ll also have some surprises (I recently heard newsletter favorite Ranger Suarez projected to be a Cy Young candidate by the end of the year)\u2026huge if true\u2026\nYesterday the Phillies lost the opening day game 9-3 to the Braves\u2026Zach Wheeler had an outstanding start pitching 6 scoreless innings\u2026 in the 5th Brandon Marsh hit a 2 run homer to put the Phillies up 2-0\u2026exciting moment\u2026unfortunately the Phillies bullpen that came into relieve Wheels didn\u2019t have the \u201cbest ranked bullpen in the MLB\u201d stuff we were expecting\u2026Strahm pitched in the 7th and gave up 2 runs\u2026Hoffman relieved Strahm and got out of the inning\u2026Alvarado had a terrible 8th giving up 5 runs\u2026Brogdon relieved Alvarado and gave up another couple runs\u2026giving the Braves a 9-2 lead\u2026Phillies tacked on a run in the bottom of the 9th via a Casty RBI single\u2026Yunior Marte pitched a scoreless 9th and the Phillies couldn\u2019t mount any semblance of a comeback in the final half inning\u2026final score of 9-3\u2026disappointing opening day\u2026.\nSomething to consider though:\nhttps://x.com/blakeifox/status/1773836607323361578?s=46&t=r0VQH_pUQ5r11aSSkRreIw\nFinal thoughts\u2026not sure if I\u2019ll rely to this and this will be our chain for the year\u2026or if it\u2019ll be a new email each day\u2026I also can\u2019t figure out how to make a distro list in gmail\u2026I\u2019ve spent the majority of a train ride to Philly trying to figure it out and it\u2019s beyond me\u2026if you know how to do this please reach out\u2026.\nRecord: 0-1\nStandings: Tied for 2nd in NL East\nNext up: Saturday 3/30 @ 4:05 vs ATL Braves\n\n"
+    }
+  },
+  {
+    "email_id": "18e9eaeef2efedba",
+    "contents": {
+      "email_date": "2024-04-02 14:00:36",
+      "opponent": "Reds",
+      "winner": "Reds",
+      "sentiment": "-3",
+      "body": "4/1 game vs Cincinnati Reds\nThe Phillies lost the home opener against the Reds 6-3\u2026another disappointing result\u2026am I going to be canceled if I say I don\u2019t like Elly de la Cruz?\u2026Christopher Sanchez had a good start for his standards pitching 5 innings and allowing 2 runs\u2026Bohm hit a two run double in the first inning and the game was either a score of 2-0 or 2-2 for most of the time\u2026Bullpen did a good job keeping the Reds off the scoreboard but the bats were absolutely dead\u2026Public enemy number 1 Connor Brogdon let up a grand slam in the tenth inning\u2026what a bum\u2026and the Phillies end up losing 6-3\u2026another tough start to the season with every facet of the game looking lackluster\u2026\nI\nDoppler Donato: the weeks forecast just came across the Phillies Newsletter reporting desk\u2026expect a lot of rain\u2026some rain delays and postponements to be expected..\nRecord: 1-3\nStandings: Tied for second in NL East\nNext up: Tuesday 4/2 @ 6:40 vs CIN Reds\nOn Mon, Apr 1, 2024 at 7:59 AM Peter Donato <\npeter.g.donato@gmail.com\n> wrote:\n\n"
+    }
+  },
+  {
+    "email_id": "18ea3db0db062975",
+    "contents": {
+      "email_date": "2024-04-03 14:06:53",
+      "opponent": "Reds",
+      "winner": "Phillies",
+      "sentiment": "3",
+      "body": "4/2 game vs Cincinnati Reds\nI was like two emails away from saying Bryce Harper has had a slow start to the season\u2026aside from a tumble into the dugout on a hustle play the second game of the year and a couple solid defensive plays, he hasn\u2019t don\u2019t much\u2026but Bryce must have felt the criticism coming cause he launched three home runs - including a grand slam in the 7th - to lead the Phillies to a 9-4 win\u2026.for those counting that\u2019s a 6 RBI night for Harper\u2026Marsh also hit a home run last night, his second on the season, and Schwarber hit an RBI single\u2026I didn\u2019t watch this game but apparently some guy named Turnbull started pitching and went 5 innings and then another guy I don\u2019t know named Pinto (pinto? It feels like someone is messing with the box score who the fuck are Turnbull and pinto?) pitched the last four innings of the game\u2026\nDoppler D: definitely still a lot of rain in a low pressure system out of the south\nI will be back on more info on Pinto\u2026who is this man\nRecord: 2-3\nStandings: 2nd in NL East\nNext up: Wednesday 4/3 @ 4:05 vs CIN Reds\nOn Tue, Apr 2, 2024 at 8:00 AM Peter Donato <\npeter.g.donato@gmail.com\n> wrote:\n\n"
+    }
+  },
+  {
+    "email_id": "18ea8fe175192b57",
+    "contents": {
+      "email_date": "2024-04-04 14:03:15",
+      "opponent": "Reds",
+      "winner": "Reds",
+      "sentiment": "2",
+      "body": "4/3 game vs Cincinnati Reds\nAs promised I dug deeper into this Pinto fella\u2026full name is Ricardo Pinto\u2026Venezuelan pitcher who happens to be best friends with Ranger Suarez\u2026go read the piece on him in the inquirer from yesterday\u2026seems like a legend and a shoe in for being a newsletter favorite\u2026.\nAnyway last night the Phillies game was delayed for theee hours due to rain and then the Fightins lost 4-1\u2026another bummer\u2026Wheeler recorded the loss but generally had a solid start pitching 6 innings allowing 3 runs and striking out ten\u2026the Phillies bats were dead with the only run coming from a Schwarber homer\u2026Phillies drop their second series of the season\u2026\nRandom but - chase told me last night he didn\u2019t like the ellipses? Can you believe that? It\u2019s been an entire season, feedback was solicited, and he was quiet until last night. Fuck that guy, he\u2019s a real dirtball, and I will never forgive him\nMore importantly: our record may stink right now but the Mets are 0-4, so that\u2019s pretty cool\nRecord: 2-4\nStandings: 3rd in NL East\nNext up: Friday 4/5 @ 6:45 vs WAS Nationals\u00a0\nOn Wed, Apr 3, 2024 at 8:06 AM Peter Donato <\npeter.g.donato@gmail.com\n> wrote:\n\n\n\n"
+    }
+  }
+]
