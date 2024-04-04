@@ -16,7 +16,7 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
-def gmail_credentials():
+def check_or_get_gmail_credentials():
 	""" Get user gmail credentials from Oauth flow.
 	currently requires a new credential every 7 days on google console.
 	Once the project is no longer in testing environment, the credential
@@ -48,7 +48,26 @@ def gmail_credentials():
 	return creds
 
 def main():
-	creds = gmail_credentials()
+	""" Scrapes philliesdump@gmail.com and parses email data to produce a JSON file with structure:
+	{
+		"email_id1" : {
+			"date_created": "datetime1",
+			"date_imported": "datetime2",
+			"body": "email body as extracted from Gmail"
+		},
+		"email_id2": {
+		
+		},
+		
+		...
+		
+		"email_idN": {
+		
+		}
+	}
+	"""
+	
+	creds = check_or_get_gmail_credentials()
 
 	try:
 		# Call the Gmail API
@@ -56,7 +75,7 @@ def main():
 		results = service.users().messages().list(userId='me', q='from:peter.g.donato@gmail.com subject:Phillies').execute()
 		messages = results.get('messages', [])
 		if not messages:
-			print('No messages found with the subject "Phillies"')
+			print('No messages found containing "Phillies" in the subject')
 		else:
 			extract = {}
 			file_date = datetime.now()
@@ -111,22 +130,25 @@ def main():
 						"date_imported": str(file_date),
 						"body": body
 					}
-			try:
-				# persist in date hierarchy
-				target_dir = f"emails/raw/{file_date.year}/{file_date.month}/{file_date.day}"
-				os.makedirs(target_dir, exist_ok=True)
-				
-				target_fpath = f"{target_dir}/{file_date.date()}_emaildata.json"
-
-				with open(target_fpath, 'a') as f:
-					json.dump(extract, f, indent=2)
 			
-			except Exception as e:
-				print("json.dump location", e)
+			# persist data in date hierarchy
+			target_dir = f"emails/raw/{file_date.year}/{file_date.month}/{file_date.day}"
+			os.makedirs(target_dir, exist_ok=True)
+			
+			target_fpath = f"{target_dir}/{file_date.date()}_emaildata.json"
 
+			# open mode is 'write' currently
+			# if ingestion is done twice in same day, 
+			# first f will be replaced by second
+			# shouldn't be a problem since script always grabs
+			# all data. However, is not clever design since
+			# API is bottleneck when data volume is large
+			
+			with open(target_fpath, 'w') as f:
+				json.dump(extract, f, indent=2)
 
-	except:
-		print("error bottom of script")
+	except Exception as e:
+		print("error bottom of script", e)
 
 if __name__ == "__main__":
   main()

@@ -4,7 +4,7 @@ from openai import OpenAI
 import os
 import json
 import pandas as pd
-import load_emails
+import stage_dedupe_raw
 from datetime import datetime
 import locate_newest_emaildata as lne
 
@@ -88,35 +88,27 @@ def phillies_email(client, text, date_created):
 		sentiment = sentiment_analysis(client,text)
 	
 	return {
-			'email_date': date_created,
-			'opponent': opp,
-			'winner': winner,
-			'sentiment': sentiment
+			'email_date': date_created
+			,'opponent': opp
+			,'winner': winner
+			,'sentiment': sentiment
+			, 'body': text
 			}
 
 
-def main():
+def main(new_emails):
 	
 	client = load_client()
 	
-	new_emails= load_emails.main()
-	
-	fp_gold_emails = lne.find_latest_data('/home/badhominem/codefiles/experiments/phillies/emails/', False)
+	fp_gold_emails = lne.fp_latest_master_data()
 	with open(fp_gold_emails, "r") as f:
 		gold_emails = json.load(f)
-
-	# # needs to update to reflect master data structure
-	# # open latest master data
-	# with open("output.json", "r") as f:
-	# 	gold_emails = json.load(f)
-
 
 	for id in new_emails:
 		text = new_emails[id]['body']
 		date = new_emails[id]['date_created']
 		
 		response = phillies_email(client, text, date)
-		
 
 		result =	{
 					"email_id" : id,
@@ -125,17 +117,18 @@ def main():
 		
 		gold_emails.append(result)
 
-	# need to change file structure of master folder
-	# year/month/day/files.json
-		
+	# persist in master hierarchy
 	file_date = datetime.now().date()
 	target_dir = f"emails/master/{file_date.year}/{file_date.month}/{file_date.day}"
 	os.makedirs(target_dir, exist_ok=True)
 				
-	target_fpath = f"{target_dir}/{file_date}_emaildata.json"
+	target_fpath = f"{target_dir}/{file_date}_sentiment_body_test.json"
 
 	with open(target_fpath, "w") as wf:
 		json.dump(gold_emails, wf, indent=2)
+	
+	return print("sentiment.py, script finished")
 
 if __name__ == "__main__":
-  main()
+  new_emails = stage_dedupe_raw.main()
+  main(new_emails)
